@@ -20,13 +20,13 @@ class BoxHeadline extends StatelessWidget {
         children: [
           Text(
             firstLine,
-            style: GoogleFonts.notoSans(fontSize: 18, color: Colors.white),
+            style: GoogleFonts.notoSans(fontSize: 18, color: Colors.black),
             textDirection: TextDirection.ltr,
           ),
           Text(secondLine,
               style: GoogleFonts.notoSans(
                   fontSize: 20,
-                  color: Colors.white,
+                  color: Colors.black,
                   fontWeight: FontWeight.bold))
         ],
       ),
