@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_1/models/ingredients.dart';
 import 'package:flutter_task_1/models/recipe.dart';
 import 'package:flutter_task_1/widgets/ingredientrow.dart';
 
@@ -31,7 +30,7 @@ class RecipeScreen extends StatelessWidget {
       body: ListView.builder(
           itemCount: 3,
           itemBuilder: (context, index) {
-            return IngredientRow(ingredient: Ingredient.ingredients[index]);
+            return IngredientRow(ingredient: recipe.ingredients[index]);
           }),
     );
   }
