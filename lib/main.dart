@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_task_1/models/recipe.dart';
 import 'package:flutter_task_1/screens/homescreen.dart';
-
 import 'models/ingredients.dart';
 
 void main() {

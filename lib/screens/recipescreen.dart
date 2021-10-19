@@ -28,7 +28,7 @@ class RecipeScreen extends StatelessWidget {
           ]),
           centerTitle: true),
       body: ListView.builder(
-          itemCount: 3,
+          itemCount: recipe.ingredients.length,
           itemBuilder: (context, index) {
             return IngredientRow(ingredient: recipe.ingredients[index]);
           }),
